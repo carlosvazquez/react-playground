@@ -1,0 +1,23 @@
+{
+  "name": "reactplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosvazquez/react-playground.git"
+  },
+  "keywords": [],
+  "author": "Carlos Vazquez <carlosvazquez@outlook.com> (https://www.shoperti.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosvazquez/react-playground/issues"
+  },
+  "homepage": "https://github.com/carlosvazquez/react-playground#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
