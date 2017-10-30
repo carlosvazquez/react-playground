@@ -1,2 +1,2 @@
-require('./module1.js');
-require('./module2.js');
+require('./modules/module1.js');
+require('./modules/module2.js');

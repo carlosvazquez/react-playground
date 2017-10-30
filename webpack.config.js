@@ -5,6 +5,7 @@ module.exports = {
     context: __dirname,
     devtool: debug ? "inline-sourcemap" : null,
     entry: "./app/src/app.js",
+    watch: true,
     module: {
         rules: [{
             test: /\.(jsx)$/,
