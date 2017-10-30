@@ -1,2 +1,13 @@
-require('./modules/module1.js');
-require('./modules/module2.js');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class Layout extends React.Component {
+  render() {
+    return(
+      <h1>Hello World!</h1>
+      );
+  }
+}
+
+const App = document.getElementById('app');
+ReactDOM.render(<Layout/>, App);

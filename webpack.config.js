@@ -6,14 +6,18 @@ module.exports = {
     devtool: debug ? "inline-sourcemap" : null,
     entry: "./app/src/app.js",
     watch: true,
+    resolve: {
+        extensions: ['.js', '.jsx']
+    },
     module: {
         rules: [{
-            test: /\.(jsx)$/,
+            test: /\.jsx?$/,
             loader: 'babel-loader',
             exclude: /node_module/,
             query: {
+                cacheDirectory: true,
                 presets: ['react', 'es2015', 'stage-0'],
-                plugins: ['react-html-attr', 'transform-class-properties', 'transform-decorators-legacy']
+                plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
             }
           }
         ]
